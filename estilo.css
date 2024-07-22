@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: aliceblue;
+
+}
+.cabecalho{
+    background-color: rgb(78, 131, 133);
+    height: 40px;
+}
+body, html {
+    display: block;
+    position: relative;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.menu{
+    display: flex;
+}
+.item{
+    list-style-type: none;
+    padding: 10px;
+}
