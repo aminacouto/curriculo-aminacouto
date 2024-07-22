@@ -1,17 +1,20 @@
 * {
     margin: 0px;
     padding: 0px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 
 }
 .cabecalho{
+    display: flex;
+    justify-content: right;
     background-color: rgb(78, 131, 133);
     height: 40px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.534);
 }
 body, html {
     display: block;
     position: relative;
-    background-color: black;
+    background-color: rgb(199, 199, 199);
 }
 
 a{
@@ -27,4 +30,74 @@ a:hover{
 .item{
     list-style-type: none;
     padding: 10px;
+}
+body > section {
+    display: flex;
+    padding: 20px;
+}
+
+h1{
+    font-size: 30px;
+    padding: 20px;
+}
+p{
+    width: 300px;
+    padding: 20px;
+}
+section#sobre > p{
+    background-color: rgba(240, 248, 255, 0.527);
+    border-radius: 20px;
+}
+section#sobre {
+    background-image: url(imagens/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
+
+}
+
+section#formacao {
+    background-color: rgb(229, 231, 231);
+}
+section#idiomas {
+    background-color: rgb(229, 231, 231);
+
+}
+
+section#portfolio {
+    display: block;
+    padding: 0px;
+    background-color: rgb(229, 231, 231);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
+}
+#portfolio >h1 {
+    padding: 0px 20px 0px 20px;
+}
+#portfolio >p {
+    padding: 20px 20px 20px 20px;
+}
+.linkPortfolio > a > img{
+    width: 500px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
+}
+section#contato {
+    display: block;
+}
+.formulario {
+    display: block;
+}
+/*Responsividade*/
+/*Telas médias*/
+@media (min-width: 768px) {
+    body > section {
+        padding: 30px 60px;
+    }
+}
+
+
+/*Telas grandes*/
+@media (min-width: 1024px) {
+    body > section {
+        padding: 20px;
+    }
 }
