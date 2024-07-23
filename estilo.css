@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap'); /*fonte h1*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap'); /*fonte h2*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap'); /*fonte p*/
+
 * {
     margin: 0px;
     padding: 0px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 body, html {
     display: flex;
@@ -10,11 +16,12 @@ body, html {
     flex-direction: column;
     height: auto;
     background-color: rgb(26, 25, 25);
-    background-image: url(imagens/pc\ fechad.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 60%), url(imagens/pc\ fechad.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
 }
 .cabecalho{
     display: flex;
@@ -25,9 +32,12 @@ body, html {
     height: 40px;
     width: 100vw;
     z-index: 999;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+
 }
 
 a{
+    font-weight: bold;
     text-decoration: none;
     color: aliceblue;
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
@@ -36,6 +46,7 @@ a:hover{
     cursor: pointer;
     background-color: aliceblue;
     border-radius: 6px;
+    font-weight: bold;
     padding: 6px;
     color: black;
     transition-duration: 0.3s;
@@ -44,25 +55,36 @@ a:hover{
     display: flex;
 }
 .item{
+    font-family: "Playfair", serif;
     list-style-type: none;
+    text-shadow: 2px 2px 5px rgb(0, 0, 5);
     padding: 10px;
 }
 .inicio{
     margin-top: 0;
     width: 100vw;
-    padding: 100px;
+    padding: 100px 0;
     background-image: url(imagens/teclado.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    box-shadow: 1px 1px 5px rgb(0, 0, 5);
     transition-duration: 0.5s;
 }
 .inicio > h1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 5px rgb(0, 0, 5);
     font-size: 33px;
     text-align: center;
+    font-family: "Bodoni Moda SC", serif;
 
 }
 .inicio > h2 {
+    font-family: "Mate SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 5px rgb(0, 0, 5);
     font-size: 20px;
     text-align: center;
 
@@ -71,35 +93,37 @@ a:hover{
     display: flex;
     flex-direction: column;
     position: relative;
+    text-align: justify;
     width: 80vw;
     padding: 20px;
     margin: 0 auto;
     margin-bottom: 100px;
-    background-color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.459);
     border-radius: 20px;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
     transition-duration: 0.5s;
 
 }
 section {
-    margin: 20px 0;
+    margin: 40px 0;
 }
 h1{
+    font-family: "Bodoni Moda SC", serif;
     font-size: 30px;
     padding: 10px 0;
+    text-shadow: 2px 2px 5px rgb(0, 0, 5);
+
 }
 p{
     width: 300px;
     padding: 0px 40px;
+    font-family: "Playfair", serif;
+    font-weight: 400;
+    font-style: normal;
 }
-section .sobre {
-    display: flex;
-}
-section .formacao {
-    display: flex;
-}
-section .idiomas {
-    display: flex;
+section .sobre > p {
+    text-indent: 40px;
+
 }
 
 
@@ -107,15 +131,16 @@ section .idiomas {
     display: flex;
     flex-direction: column;
     width: 70vw;
-    background-color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
-    padding: 50px;
+    padding: 20px 50px 50px 50px;
     gap: 10px;
     border-radius: 20px;
+    transition-duration: 0.5s;
 }
 .formulario input, .formulario textarea {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 5px;
 }
 /*Responsividade*/
@@ -129,6 +154,10 @@ section .idiomas {
     h1 {
         padding-right: 20px;
     }
+    .formulario{
+        width: 50vw;
+    }
+
 }
 
 
@@ -143,5 +172,16 @@ section .idiomas {
     h1 {
         padding-right: 20px;
     }
-
+    .formulario{
+        width: 40vw;
+    }
+    section .sobre {
+        display: flex;
+    }
+    section .formacao {
+        display: flex;
+    }
+    section .idiomas {
+        display: flex;
+    }
 }
