@@ -10,6 +10,11 @@ body, html {
     flex-direction: column;
     height: auto;
     background-color: rgb(26, 25, 25);
+    background-image: url(imagens/pc\ fechad.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .cabecalho{
     display: flex;
