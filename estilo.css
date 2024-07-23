@@ -1,28 +1,39 @@
 * {
     margin: 0px;
     padding: 0px;
-    color: rgb(0, 0, 0);
-
+    color: black;
+}
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    background-color: rgb(26, 25, 25);
 }
 .cabecalho{
     display: flex;
-    justify-content: right;
-    background-color: rgb(78, 131, 133);
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
     height: 40px;
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.534);
-}
-body, html {
-    display: block;
-    position: relative;
-    background-color: rgb(199, 199, 199);
+    width: 100vw;
+    z-index: 999;
 }
 
 a{
     text-decoration: none;
+    color: aliceblue;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
 }
 a:hover{
     cursor: pointer;
-    text-decoration: underline;
+    background-color: aliceblue;
+    border-radius: 6px;
+    padding: 6px;
+    color: black;
+    transition-duration: 0.3s;
 }
 .menu{
     display: flex;
@@ -31,73 +42,101 @@ a:hover{
     list-style-type: none;
     padding: 10px;
 }
-body > section {
-    display: flex;
-    padding: 20px;
+.inicio{
+    margin-top: 0;
+    width: 100vw;
+    padding: 100px;
+    background-image: url(imagens/teclado.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    transition-duration: 0.5s;
 }
+.inicio > h1 {
+    font-size: 33px;
+    text-align: center;
 
+}
+.inicio > h2 {
+    font-size: 20px;
+    text-align: center;
+
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 80vw;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
+    transition-duration: 0.5s;
+
+}
+section {
+    margin: 20px 0;
+}
 h1{
     font-size: 30px;
-    padding: 20px;
+    padding: 10px 0;
 }
 p{
     width: 300px;
-    padding: 20px;
+    padding: 0px 40px;
 }
-section#sobre > p{
-    background-color: rgba(240, 248, 255, 0.527);
+section .sobre {
+    display: flex;
+}
+section .formacao {
+    display: flex;
+}
+section .idiomas {
+    display: flex;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
+    padding: 50px;
+    gap: 10px;
     border-radius: 20px;
 }
-section#sobre {
-    background-image: url(imagens/fundo.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
-
-}
-
-section#formacao {
-    background-color: rgb(229, 231, 231);
-}
-section#idiomas {
-    background-color: rgb(229, 231, 231);
-
-}
-
-section#portfolio {
-    display: block;
-    padding: 0px;
-    background-color: rgb(229, 231, 231);
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
-}
-#portfolio >h1 {
-    padding: 0px 20px 0px 20px;
-}
-#portfolio >p {
-    padding: 20px 20px 20px 20px;
-}
-.linkPortfolio > a > img{
-    width: 500px;
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
-}
-section#contato {
-    display: block;
-}
-.formulario {
-    display: block;
+.formulario input, .formulario textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 /*Responsividade*/
 /*Telas médias*/
 @media (min-width: 768px) {
-    body > section {
-        padding: 30px 60px;
+    .principal{
+        width: 70vw;
+        align-items: center;
+        transition-duration: 0.5s;
+    }
+    h1 {
+        padding-right: 20px;
     }
 }
 
 
 /*Telas grandes*/
 @media (min-width: 1024px) {
-    body > section {
-        padding: 20px;
+    .principal{
+        width: 60vw;
+        align-items: center;
+        transition-duration: 0.5s;
+
     }
+    h1 {
+        padding-right: 20px;
+    }
+
 }
