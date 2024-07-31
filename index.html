@@ -17,13 +17,15 @@
 </head>
 <body>
     <header class="cabecalho">
-        <ul class="menu"> <!--Menu com links para as sessões do currículo-->
-            <li class="item"><a href="#sobre">Sobre mim</a></li>
-            <li class="item"><a href="#formacao">Formação</a></li>
-            <li class="item"><a href="#idiomas">Idiomas</a></li>
-            <li class="item"><a href="https://aminacouto.github.io/projeto-portfolio/" rel="next" target="_blank" >Portfólio</a ></li> <!--link para página fora do cv-->
-            <li class="item"><a href="#contato">Contatos</a></li>
-        </ul>
+        <nav>
+            <ul class="menu"> <!--Menu com links para as sessões do currículo-->
+                <li class="item"><a href="#sobre">Sobre mim</a></li>
+                <li class="item"><a href="#formacao">Formação</a></li>
+                <li class="item"><a href="#idiomas">Idiomas</a></li>
+                <li class="item"><a href="https://aminacouto.github.io/projeto-portfolio/" rel="next" target="_blank" >Portfólio</a ></li> <!--link para página fora do cv-->
+                <li class="item"><a href="#contato">Contatos</a></li>
+            </ul>
+        </nav>
     </header>
     <section class="inicio" id="inicio">
         <h1>
@@ -68,8 +70,8 @@
         <form action="">
             <h1>Contate-me</h1>
             <div class="formulario">
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
                 <textarea name="" id="" placeholder="Digite sua mensagem..."></textarea>
                 <input type="submit" value="Enviar">
             </div>
