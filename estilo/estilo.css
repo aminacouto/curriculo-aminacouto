@@ -177,7 +177,10 @@ section .sobre > p {
     filter: brightness(0.6);
 }
 
-
+.contato {
+    padding-top: 100px;
+    margin-top: 40px;
+}
 .formulario {
     display: flex;
     flex-direction: column;
