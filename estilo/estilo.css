@@ -15,6 +15,7 @@ body, html {
     align-items: center;
     flex-direction: column;
     height: auto;
+    overflow-x: hidden;
     background: rgba(0, 0, 0, 0);
     background: linear-gradient(90deg, rgba(255,0,0,0) 0%, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 60%, rgba(255,0,0,0) 100%);
 
@@ -41,12 +42,10 @@ a{
 }
 a:hover{
     cursor: pointer;
-    background-color: aliceblue;
+    background-color: rgba(1, 182, 158, 0.2);
     border-radius: 6px;
-    font-weight: bold;
-    padding: 6px;
-    color: black;
-    transition-duration: 0.3s;
+    padding: 8px;
+    transition-duration: 0.4s;
 }
 .menu{
     display: flex;
@@ -78,21 +77,19 @@ a:hover{
     align-items: center;
     position: relative;
     z-index: 1;
-    margin-top: 0;
+    margin: 0;
     width: 100vw;
     height: 100vh;
-    box-shadow: 1px 1px 5px rgb(0, 0, 5);
     transition-duration: 0.5s;
 }
 .inicio > h1 {
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 5px rgb(0, 0, 5);
-    font-size: 33px;
+    font-size: 36px;
     width: 100vw;
     text-align: center;
     font-family: "Bodoni Moda SC", serif;
-
 
 }
 .inicio > h2 {
@@ -100,7 +97,7 @@ a:hover{
     font-weight: 400;
     font-style: normal;
     text-shadow: 2px 2px 5px rgb(0, 0, 5);
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
 
 }
@@ -139,15 +136,14 @@ section {
     position: relative;
     z-index: 2;
     margin: 40px 0;
+    padding-top: 40px;
 }
 h1{
     font-family: "Bodoni Moda SC", serif;
     font-size: 30px;
     padding: 10px 0;
-    margin-top: 50px;
     text-shadow: 2px 2px 5px rgb(0, 0, 5);
     transition-duration: 0.5s;
-
 }
 p{
     width: 300px;
@@ -175,10 +171,21 @@ section .sobre > p {
     transition-duration: 0.5s;
 }
 .formulario input, .formulario textarea {
+    background-color: rgb(31, 31, 31);
+    color: black;
     padding: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
 }
+.formulario #enviar {
+    background-color: rgba(1, 182, 158, 0.2);
+}
+#enviar:hover  {
+    cursor: pointer;
+    background-color: rgba(1, 182, 158, 0.2);
+    opacity: 0.8;
+}
+
 /*Responsividade*/
 /*Telas médias*/
 @media (min-width: 768px) {

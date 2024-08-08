@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="estilo/estilo.css"> <!--Estilo-->
     <!--FONTES-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,14 +11,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+
     <!--Favicon-->
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <title>Amina do Couto CV</title>
 </head>
 <body>
     <header class="cabecalho">
-        <nav>
-            <ul class="menu"> <!--Menu com links para as sessões do currículo-->
+        <nav><!--Menu com links para as sessões do currículo-->
+            <ul class="menu"> 
                 <li class="item"><a href="#sobre">Sobre mim</a></li>
                 <li class="item"><a href="#formacao">Formação</a></li>
                 <li class="item"><a href="#idiomas">Idiomas</a></li>
@@ -27,7 +28,8 @@
             </ul>
         </nav>
     </header>
-    <section class="inicio" id="inicio">
+
+    <section class="inicio" id="inicio"> <!--Tela inicial com nome-->
         <h1>
             Amina do Couto
         </h1>
@@ -45,7 +47,7 @@
             <h1>Sobre mim</h1>
             <p>Sou uma profissional com formação em Gastronomia pela PUCRS e atualmente estou me dedicando ao curso de Análise e Desenvolvimento de Sistemas na Uninter. Meu objetivo é expandir minha trajetória profissional na área de tecnologia e encontrar oportunidades que me permitam adquirir experiência e alcançar um crescimento significativo em minha carreira.
             </p>
-            <p>Além das minhas qualificações profissionais, tenho hobbies que estimulam minha criatividade e bem-estar. Gosto de me envolver em trabalhos manuais, como desenhar, e desfruto de atividades ao ar livre, como trilhas e pedaladas. Sou também uma entusiasta no mundo da fotografia e da música.</p>
+            <p>Além das minhas qualificações profissionais, tenho hobbies que estimulam minha criatividade e bem-estar. Gosto de me envolver em trabalhos manuais, como desenhar, e desfruto de atividades ao ar livre, como trilhas e pedaladas. Sou também uma entusiasta no mundo da fotografia e da música. Isso tudo sem falar no mundo da Gastronomia.</p>
             
         </section>
 
@@ -77,8 +79,8 @@
             <div class="formulario">
                 <input type="text" placeholder="Nome" required>
                 <input type="email" placeholder="Email" required>
-                <textarea name="" id="" placeholder="Digite sua mensagem..."></textarea>
-                <input type="submit" value="Enviar">
+                <textarea name="" id="msg" placeholder="Digite sua mensagem..."></textarea>
+                <input id="enviar" type="submit" value="Enviar">
             </div>
         </form>
     </section>
