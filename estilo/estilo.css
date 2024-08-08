@@ -18,6 +18,7 @@ body, html {
     overflow-x: hidden;
     background: rgba(0, 0, 0, 0);
     background: linear-gradient(90deg, rgb(1, 182, 158, 0.0) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.5) 60%, rgba(1, 182, 158, 0.0) 100%);
+    scroll-behavior: smooth;
 
 }
 
@@ -40,13 +41,14 @@ a{
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
 }
-a:hover{
+nav a:hover{
     cursor: pointer;
     background-color: rgba(1, 182, 158, 0.2);
     border-radius: 6px;
     padding: 8px;
     transition-duration: 0.4s;
 }
+
 .menu{
     display: flex;
 }
@@ -158,11 +160,28 @@ section .sobre > p {
     text-indent: 40px;
 
 }
+.porfolio{
+    align-items: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+
+}
+.portfolio img{
+    width: 60vw;
+    border-radius: 6px;
+    margin: 20px;
+    transition-duration: 0.5s;
+}
+.portfolio img:hover{
+    opacity: 0.8;
+}
+
 
 .formulario {
     display: flex;
     flex-direction: column;
-    width: 70vw;
+    width: 65vw;
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
     padding: 20px 50px 50px 50px;
