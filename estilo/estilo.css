@@ -140,6 +140,8 @@ section {
     margin: 40px 0;
     padding-top: 40px;
 }
+
+
 h1{
     font-family: "Bodoni Moda SC", serif;
     font-size: 30px;
@@ -204,6 +206,12 @@ section .sobre > p {
     background-color: rgba(1, 182, 158, 0.2);
     opacity: 0.8;
 }
+
+/* SCROLL*/
+.inicio, .sobre, .formacao, .idiomas, .portfolio, .contato {
+    visibility: hidden;
+}
+
 
 /*Responsividade*/
 /*Telas médias*/
