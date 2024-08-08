@@ -164,17 +164,17 @@ section .sobre > p {
     align-items: center;
     height: 100vh;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+
 
 }
 .portfolio img{
     width: 60vw;
     border-radius: 6px;
-    margin: 20px;
     transition-duration: 0.5s;
 }
 .portfolio img:hover{
     opacity: 0.8;
+    border-radius: 20% 0;
 }
 
 
