@@ -270,7 +270,14 @@ h3{
     section .formacao {
         display: flex;
     }
+    section .formacao > p{
+        margin-top: 50px;
+    }
     section .idiomas {
         display: flex;
+    }
+    section .idiomas > p {
+        margin-top: 50px;
+
     }
 }
