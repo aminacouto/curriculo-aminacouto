@@ -154,14 +154,14 @@ p{
     font-family: "Playfair", serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: 6px;
     transition-duration: 0.5s;
 
 }
-section .sobre > p {
+#p1, #p2 > p {
     text-indent: 40px;
 
 }
+
 .porfolio{
     padding-top: 80px;
     margin: 40px;
@@ -175,36 +175,14 @@ section .sobre > p {
     border-radius: 20% 0;
     filter: brightness(0.6);
 }
-
-.contato {
-    padding-top: 100px;
-    margin-top: 40px;
-}
-.formulario {
+footer{
     display: flex;
-    flex-direction: column;
-    width: 65vw;
-    background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
-    padding: 20px 50px 50px 50px;
-    gap: 10px;
-    border-radius: 20px;
-    transition-duration: 0.5s;
-}
-.formulario input, .formulario textarea {
-    background-color: rgb(31, 31, 31);
-    color: black;
-    padding: 10px;
-    border: none;
-    border-radius: 6px;
-}
-.formulario #enviar {
-    background-color: rgba(1, 182, 158, 0.2);
-}
-#enviar:hover  {
-    cursor: pointer;
-    background-color: rgba(1, 182, 158, 0.2);
-    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    height: 60px;
+    margin-top: 80px;
 }
 
 /* SCROLL*/
@@ -226,11 +204,6 @@ section .sobre > p {
         transition-duration: 0.5s;
 
     }
-
-    .formulario{
-        width: 50vw;
-    }
-
 }
 
 
@@ -257,11 +230,12 @@ section .sobre > p {
         transition-duration: 0.5s;
 
     }
-    .formulario{
-        width: 40vw;
-    }
     section .sobre {
         display: flex;
+    }
+    #paragrafosSobre{
+        display: flex;
+        flex-direction: row;
     }
     section .formacao {
         display: flex;

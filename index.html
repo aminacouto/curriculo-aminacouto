@@ -28,7 +28,7 @@
                 <li class="item"><a href="#formacao">Formação</a></li>
                 <li class="item"><a href="#idiomas">Idiomas</a></li>
                 <li class="item"><a href="#portfolio">Portfólio</a ></li> <!--link para página fora do cv-->
-                <li class="item"><a href="#contato">Contatos</a></li>
+                <li class="item"><a href="#contatos">Contatos</a></li>
             </ul>
         </nav>
     </header>
@@ -47,10 +47,17 @@
     </div>
     <section class="principal"> <!--seção que engloba o conteúdo principal-->
         <section class="sobre" id="sobre"> <!--Seção sobre mim-->
-            <h1>Sobre mim</h1>
-            <p>Sou uma profissional com formação em Gastronomia pela PUCRS e atualmente estou me dedicando ao curso de Análise e Desenvolvimento de Sistemas na Uninter. Meu objetivo é expandir minha trajetória profissional na área de tecnologia e encontrar oportunidades que me permitam adquirir experiência e alcançar um crescimento significativo em minha carreira.
-            </p>
-            <p>Além das minhas qualificações profissionais, tenho hobbies que estimulam minha criatividade e bem-estar. Gosto de me envolver em trabalhos manuais, como desenhar, e desfruto de atividades ao ar livre, como trilhas e pedaladas. Sou também uma entusiasta no mundo da fotografia e da música. Isso tudo sem falar no mundo da Gastronomia.</p>
+            <section id="paragrafosSobre" class="paragrafosSobre">
+                <h1>Sobre mim</h1>
+                <div id="p1">
+                    <p>Nasci no interior e me mudei para Porto Alegre com um grande objetivo: estudar e construir uma carreira sólida. Após um ano de cursinho pré-vestibular, conquistei uma bolsa de estudos para o curso de Gastronomia na PUCRS. Apesar de ter me formado com sucesso, percebi que a área não correspondia à minha verdadeira paixão. Isso me levou a uma transição importante: mergulhei no mundo da tecnologia.</p>
+                    <p>Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na Uninter, e meu foco é aplicar o que aprendo em projetos práticos, como o desenvolvimento de sites e aplicações. Minha meta é não só adquirir conhecimento, mas também colocá-lo em prática, construindo uma carreira significativa na área de tecnologia, com o objetivo de alcançar minha independência financeira.</p>
+                </div>
+                <div id="p2">
+                    <p>Possuo conhecimento em linguagens de programação como Java, Python, SQL e JavaScript, além de uma base sólida em HTML e CSS. No campo do design, utilizo ferramentas como Figma e Canva para criar interfaces funcionais e visualmente atraentes. Adaptação, resolução de problemas e trabalho em equipe são habilidades que me acompanham, assim como a vontade de sempre aprender mais.</p>
+                    <p>Nos meus momentos de lazer, adoro explorar minha criatividade com hobbies como desenho, fotografia e música, e sou apaixonada por atividades ao ar livre, como trilhas e ciclismo. Essas experiências pessoais me ajudam a manter o equilíbrio e a trazer uma visão criativa para tudo o que faço, tanto na vida pessoal quanto profissional.</p>
+                </div>
+            </section>
             
         </section>
 
@@ -81,17 +88,11 @@
         <div id="img"><a href="https://aminacouto.github.io/projeto-portfolio/" rel="next" target="_blank" ><img src="imagens/portfolio.png" alt="link para acessar o portfólio"></a></div>
     </section>
 
-    <section class="contato" id="contato"> <!--Formulário para contato-->
-        <form action="">
-            <h1>Contate-me</h1>
-            <div class="formulario">
-                <input type="text" placeholder="Nome" required>
-                <input type="email" placeholder="Email" required>
-                <textarea name="" id="msg" placeholder="Digite sua mensagem..."></textarea>
-                <input id="enviar" type="submit" value="Enviar">
-            </div>
-        </form>
-    </section>
+    <footer id="contatos">
+        <a href=""><img src="imagens/linkedin.png" alt=""></a>
+        <a href=""><img src="imagens/git.png" alt=""></a>
+        <a href=""><img src="imagens/insta.png" alt=""></a>
+    </footer>
 
     <script src="script.js"></script>
 </body>
