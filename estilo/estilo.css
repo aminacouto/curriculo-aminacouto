@@ -1,15 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap'); /*fonte h1*/
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+/*fonte h1*/
 
-@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap'); /*fonte h2*/
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+/*fonte h2*/
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap'); /*fonte p*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+/*fonte p*/
 
 * {
     margin: 0px;
     padding: 0px;
     color: rgb(255, 255, 255);
 }
-body, html {
+
+body,
+html {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +26,7 @@ body, html {
 
 }
 
-.cabecalho{
+.cabecalho {
     display: flex;
     justify-content: center;
     position: fixed;
@@ -34,13 +39,14 @@ body, html {
 
 }
 
-a{
+a {
     font-weight: bold;
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
 }
-nav a:hover{
+
+nav a:hover {
     cursor: pointer;
     background-color: rgba(1, 182, 158, 0.2);
     border-radius: 6px;
@@ -48,16 +54,18 @@ nav a:hover{
     transition-duration: 0.4s;
 }
 
-.menu{
+.menu {
     display: flex;
 }
-.item{
+
+.item {
     font-family: "Playfair", serif;
     list-style-type: none;
     text-shadow: 2px 2px 5px rgb(0, 0, 5);
     padding: 10px;
 }
-#capa { 
+
+#capa {
     position: absolute;
     top: 0;
     left: 0;
@@ -72,7 +80,8 @@ nav a:hover{
     z-index: 2;
 
 }
-.inicio{
+
+.inicio {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,7 +95,8 @@ nav a:hover{
     z-index: 3;
 
 }
-.inicio > h1 {
+
+.inicio>h1 {
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 5px rgb(0, 0, 5);
@@ -96,7 +106,8 @@ nav a:hover{
     font-family: "Bodoni Moda SC", serif;
 
 }
-.inicio > h2 {
+
+.inicio>h2 {
     font-family: "Mate SC", serif;
     font-weight: 400;
     font-style: normal;
@@ -105,6 +116,7 @@ nav a:hover{
     text-align: center;
 
 }
+
 #background {
     position: fixed;
     top: 0;
@@ -114,13 +126,15 @@ nav a:hover{
     overflow: hidden;
     z-index: 1;
 }
+
 #video {
     width: 100%;
     height: 100%;
     object-fit: cover;
     position: fixed;
-    filter: blur(1px) brightness(0.2); 
+    filter: blur(1px) brightness(0.2);
 }
+
 .principal {
     display: flex;
     flex-direction: column;
@@ -137,12 +151,13 @@ nav a:hover{
     z-index: 2;
 
 }
+
 section {
     position: relative;
     z-index: 2;
 }
 
-h1{
+h1 {
     font-family: "Bodoni Moda SC", serif;
     font-size: 30px;
     margin-top: 20px;
@@ -150,7 +165,8 @@ h1{
     text-shadow: 2px 2px 5px rgb(0, 0, 5);
     transition-duration: 0.5s;
 }
-p{
+
+p {
     width: 300px;
     padding: 0px 40px;
     font-family: "Playfair", serif;
@@ -159,34 +175,100 @@ p{
     transition-duration: 0.5s;
 
 }
-#p1, #p2 > p {
+
+#p1,
+#p2>p {
     text-indent: 40px;
 
 }
-.habilidades{
+
+.habilidades {
     width: 80vw;
     height: 100vh;
 }
-h2{
+
+.habilidades>h1 {
+    font-size: 25px;
+}
+
+h2 {
     font-size: 16px;
+    margin: 20px 0 5px 0;
+    text-align: center;
 }
-#prog img, #ferramentas img, #design img {
-    width: 60px;
+
+#prog,
+#ferramentas,
+#design {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
 }
-.porfolio{
+
+#prog img,
+#ferramentas img,
+#design img {
+    width: 40px;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+#prog img:hover,
+#ferramentas img:hover,
+#design img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.titulo {
+    position: relative;
+    display: inline-block;
+}
+
+.titulo .nometitulo {
+    visibility: hidden;
+    width: 94px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.titulo:hover .nometitulo {
+    visibility: visible;
+    opacity: 1;
+  }
+
+.porfolio {
     padding-top: 80px;
     margin: 40px;
 }
-.portfolio img{
+
+.portfolio img {
     width: 60vw;
     border-radius: 6px;
     transition-duration: 0.5s;
 }
-.portfolio img:hover{
+
+.portfolio img:hover {
     border-radius: 20% 0;
     filter: brightness(0.6);
 }
-footer{
+
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -199,33 +281,44 @@ footer{
     z-index: 2;
 
 }
-#redesSociais{
+
+#redesSociais {
     display: flex;
-    
+
 }
-h3{
+
+h3 {
     font-size: 16px;
     padding: 0 20px;
 }
-#redesSociais > a{
+
+#redesSociais>a {
     margin-right: 20px;
 }
-#redesSociais > a:hover{
+
+#redesSociais>a:hover {
     opacity: 0.8;
 }
 
-#copy{
+#copy {
     display: flex;
     justify-content: center;
     width: 100vw;
 }
-#copy > p{
+
+#copy>p {
     width: auto;
     margin-top: 20px;
 }
 
 /* SCROLL*/
-.inicio, .sobre, .formacao, .idiomas, .portfolio, .habilidades, .contato {
+.inicio,
+.sobre,
+.formacao,
+.idiomas,
+.portfolio,
+.habilidades,
+.contato {
     visibility: hidden;
 }
 
@@ -233,15 +326,19 @@ h3{
 /*Responsividade*/
 /*Telas médias*/
 @media (min-width: 768px) {
-    .principal{
+    .principal {
         width: 60vw;
         align-items: center;
         transition-duration: 0.5s;
     }
+
     h1 {
         padding-right: 20px;
         transition-duration: 0.5s;
 
+    }
+    .habilidades {
+        width: 60vw;
     }
 }
 
@@ -249,44 +346,54 @@ h3{
 /*Telas grandes*/
 @media (min-width: 1024px) {
 
-    .principal{
+    .principal {
         width: 70vw;
         align-items: center;
-        padding: 30px; 
+        padding: 30px;
         transition-duration: 0.5s;
 
 
     }
 
-    .sobre > h1 {
+    .sobre>h1 {
         width: 100px;
         padding-right: 0px;
         transition-duration: 0.5s;
 
     }
-    .sobre > p{
+
+    .sobre>p {
         padding: 0 10px;
         transition-duration: 0.5s;
 
     }
+
     section .sobre {
         display: flex;
     }
-    #paragrafosSobre{
+
+    #paragrafosSobre {
         display: flex;
         flex-direction: row;
     }
+
     section .formacao {
         display: flex;
     }
-    section .formacao > p{
+
+    section .formacao>p {
         margin-top: 50px;
     }
+
     section .idiomas {
         display: flex;
     }
-    section .idiomas > p {
+
+    section .idiomas>p {
         margin-top: 50px;
 
+    }
+    .habilidades {
+        width: 60vw;
     }
 }
