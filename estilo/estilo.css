@@ -163,7 +163,16 @@ p{
     text-indent: 40px;
 
 }
-
+.habilidades{
+    width: 80vw;
+    height: 100vh;
+}
+h2{
+    font-size: 16px;
+}
+#prog img, #ferramentas img, #design img {
+    width: 60px;
+}
 .porfolio{
     padding-top: 80px;
     margin: 40px;
@@ -216,7 +225,7 @@ h3{
 }
 
 /* SCROLL*/
-.inicio, .sobre, .formacao, .idiomas, .portfolio, .contato {
+.inicio, .sobre, .formacao, .idiomas, .portfolio, .habilidades, .contato {
     visibility: hidden;
 }
 
