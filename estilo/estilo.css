@@ -182,12 +182,12 @@ p {
 
 }
 
-.habilidades {
-    width: 80vw;
+.competencias {
+    width: 70vw;
     height: 100vh;
 }
 
-.habilidades>h1 {
+.competencias>h1 {
     font-size: 25px;
 }
 
@@ -317,7 +317,7 @@ h3 {
 .formacao,
 .idiomas,
 .portfolio,
-.habilidades,
+.competencias,
 .contato {
     visibility: hidden;
 }
@@ -337,8 +337,8 @@ h3 {
         transition-duration: 0.5s;
 
     }
-    .habilidades {
-        width: 60vw;
+    .competencias {
+        width: 50vw;
     }
 }
 
@@ -393,7 +393,7 @@ h3 {
         margin-top: 50px;
 
     }
-    .habilidades {
-        width: 60vw;
+    .competencias {
+        width: 50vw;
     }
 }

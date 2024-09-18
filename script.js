@@ -16,7 +16,7 @@ sr.reveal('.idiomas', {
     duration: 2500,
     rotate: {x:0, y:0, z:0}
 });
-sr.reveal('.habilidades', {
+sr.reveal('.competencias', {
     duration: 2500,
     rotate: {x:0, y:0, z:0}
 });
