@@ -146,13 +146,9 @@ nav a:hover {
     position: relative;
     text-align: justify;
     width: calc(100vw - 22vw);
-    width: 70vw;
-    padding: 10px;
-    margin-left: 22vw;
+    width: 50vw;
+    padding: 12px;
     margin: 90px 0;
-    background-color: rgba(0, 0, 0, 0.459);
-    border-radius: 20px;
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
     transition-duration: 0.5s;
     z-index: 2;
 }
@@ -165,7 +161,7 @@ h1 {
     font-family: "Bodoni Moda SC", serif;
     font-size: 30px;
     margin-top: 40px;
-    padding: 20px;
+    padding: 22px;
     text-shadow: 2px 2px 5px rgb(0, 0, 5);
     transition-duration: 0.5s;
 }
@@ -341,7 +337,11 @@ h3 {
 /*Telas médias*/
 @media (min-width: 768px) {
     .principal {
-        width: 60vw;
+        background-color: rgba(0, 0, 0, 0.459);
+        border-radius: 20px;
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
+        width: 50vw;
+        margin-left: 22vw;
         align-items: center;
         transition-duration: 0.5s;
     }
@@ -355,7 +355,8 @@ h3 {
     .competencias {
         width: 50vw;
     }
-    a{
+
+    a {
         font-size: 16px;
     }
 
@@ -366,6 +367,9 @@ h3 {
 @media (min-width: 1024px) {
 
     .principal {
+        background-color: rgba(0, 0, 0, 0.459);
+        border-radius: 20px;
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
         width: 70vw;
         margin-left: 12vw;
         align-items: center;
@@ -427,10 +431,12 @@ h3 {
         margin-left: 12vw;
         width: 50vw;
     }
+
     .cabecalho {
         width: 12vw;
     }
-    a{
+
+    a {
         font-size: 16px;
     }
 }
