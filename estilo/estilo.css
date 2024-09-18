@@ -28,20 +28,21 @@ html {
 
 .cabecalho {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
     position: fixed;
     top: 0px;
+    left: 0;
     background-color: rgba(0, 0, 0, 0.8);
-    height: 60px;
-    width: 100vw;
+    height: 100vh;
+    width: 22vw;
     z-index: 999;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
 
 }
 
 a {
-    font-weight: bold;
+    font-size: 14px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
@@ -57,13 +58,16 @@ nav a:hover {
 
 .menu {
     display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
 
 .item {
     font-family: "Playfair", serif;
     list-style-type: none;
     text-shadow: 2px 2px 5px rgb(0, 0, 5);
-    margin: 0 15px;
+    margin: 20px 0;
+    width: 100%;
 }
 
 #capa {
@@ -89,7 +93,7 @@ nav a:hover {
     align-items: center;
     position: relative;
     z-index: 1;
-    margin: 0;
+    margin-left: 22vw;
     width: 100vw;
     height: 100vh;
     transition-duration: 0.5s;
@@ -102,10 +106,10 @@ nav a:hover {
     box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 5px rgb(0, 0, 5);
     font-size: 36px;
-    width: 100vw;
+    width: calc(100vw - 22vw);
     text-align: center;
     font-family: "Bodoni Moda SC", serif;
-
+    box-sizing: border-box;
 }
 
 .inicio>h2 {
@@ -141,20 +145,19 @@ nav a:hover {
     flex-direction: column;
     position: relative;
     text-align: justify;
-    width: 80vw;
-    padding: 20px;
-    margin: 20px auto;
-    margin-bottom: 90px;
+    width: calc(100vw - 22vw);
+    width: 70vw;
+    padding: 10px;
+    margin-left: 22vw;
+    margin: 90px 0;
     background-color: rgba(0, 0, 0, 0.459);
     border-radius: 20px;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
     transition-duration: 0.5s;
     z-index: 2;
-
 }
 
 section {
-    position: relative;
     z-index: 2;
 }
 
@@ -162,7 +165,7 @@ h1 {
     font-family: "Bodoni Moda SC", serif;
     font-size: 30px;
     margin-top: 40px;
-    padding: 20px 0;
+    padding: 20px;
     text-shadow: 2px 2px 5px rgb(0, 0, 5);
     transition-duration: 0.5s;
 }
@@ -184,6 +187,8 @@ p {
 }
 
 .competencias {
+    margin-left: 22vw;
+    width: calc(100vw - 20vw);
     width: 70vw;
     height: 100vh;
 }
@@ -248,18 +253,26 @@ h2 {
     opacity: 0;
     transition: opacity 0.3s;
 }
+
 .titulo:hover .nometitulo {
     visibility: visible;
     opacity: 1;
-  }
+}
 
 .porfolio {
-    padding-top: 80px;
-    margin: 40px;
+    margin-left: 22vw;
+    width: calc(100vw - 20vw);
+    height: 100vh;
+}
+
+.portfolio>h1 {
+    font-size: 25px;
+    margin-left: 22vw;
 }
 
 .portfolio img {
-    width: 60vw;
+    width: 50vw;
+    margin-left: 22vw;
     border-radius: 6px;
     transition-duration: 0.5s;
 }
@@ -279,7 +292,7 @@ footer {
     height: 60px;
     margin-top: 80px;
     padding: 20px;
-    z-index: 2;
+    z-index: 999;
 
 }
 
@@ -338,9 +351,14 @@ h3 {
         transition-duration: 0.5s;
 
     }
+
     .competencias {
         width: 50vw;
     }
+    a{
+        font-size: 16px;
+    }
+
 }
 
 
@@ -349,11 +367,21 @@ h3 {
 
     .principal {
         width: 70vw;
+        margin-left: 12vw;
         align-items: center;
-        padding: 30px;
-        transition-duration: 0.5s;
+    }
 
+    .inicio {
+        margin-left: 12vw;
+        width: calc(100vw - 12vw);
+    }
 
+    .inicio>h1 {
+        width: calc(100vw - 12vw);
+    }
+
+    .inicio>h2 {
+        width: calc(100vw - 12vw);
     }
 
     .sobre>h1 {
@@ -394,7 +422,15 @@ h3 {
         margin-top: 50px;
 
     }
+
     .competencias {
+        margin-left: 12vw;
         width: 50vw;
+    }
+    .cabecalho {
+        width: 12vw;
+    }
+    a{
+        font-size: 16px;
     }
 }
