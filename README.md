@@ -46,6 +46,10 @@ Informações para entrar em contato, incluindo links para minhas redes sociais 
 O layout do portfólio foi pensado para ser limpo e minimalista, utilizando uma paleta de cores suave e tipografias legíveis. A paleta de cores é composta por tons de preto com transparência, branco e um toque de tonalidade verde. Essa combinação cria um visual elegante e moderno, com um contraste sutil que destaca os elementos importantes sem sobrecarregar o visual.
 
 ---
+## 🔗 Acesse o Projeto
+[Currículo online](https://aminacouto.github.io/curriculo-aminacouto/)
+
+---
 
 ## 📝 Contato
 
