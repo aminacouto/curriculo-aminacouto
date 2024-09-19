@@ -4,12 +4,12 @@ Este é o repositório do meu currículo online, onde apresento minhas habilidad
 
 ## 🎯 Objetivo
 
-Criar uma plataforma online para mostrar minhas habilidades, formação, projetos e formas de contato, com foco em uma navegação fluida e design responsivo.
+Criar uma aplicação online para mostrar minhas habilidades, formação, projetos e formas de contato, com foco em uma navegação fluida e design responsivo.
 
-## 📋 Seções do Portfólio
+## 📋 Seções do Currículo
 
 ### 1. Sobre Mim
-Uma breve apresentação da minha trajetória acadêmica e profissional, destacando minha transição da área de Gastronomia para Tecnologia e minha dedicação em Sistemas de Análise e Desenvolvimento.
+Uma breve apresentação da minha trajetória acadêmica e profissional, destacando minha transição da área de Gastronomia para Tecnologia e minha dedicação em Análise e Desenvolvimento de Sistemas.
 
 ### 1. Principais Tecnologias
 Exibição das principais tecnologias e ferramentas que utilizo na criação de projetos.
@@ -25,7 +25,7 @@ Informações para entrar em contato, incluindo links para minhas redes sociais 
 
 ## 🚀 Funcionalidades
 
-- **Design Responsivo**: O portfólio se adapta a diferentes tamanhos de tela, garantindo boa usabilidade em dispositivos móveis e desktop.
+- **Design Responsivo**: O currículo digital se adapta a diferentes tamanhos de tela, garantindo boa usabilidade em dispositivos móveis e desktop.
 - **Menu Lateral**: Menu de navegação fixo no lado esquerdo, direcionando para todas as seções.
 - **Animações**: Uso de transições e animações em CSS para uma experiência visual agradável, como o efeito de seta pulsante.
 
@@ -37,13 +37,12 @@ Informações para entrar em contato, incluindo links para minhas redes sociais 
 | ------------------ | -------------------------------------------------------------- |
 | **HTML5**          | Estrutura semântica do site.                                    |
 | **CSS3**           | Estilos visuais, com foco em design responsivo e animações.     |
-| **JavaScript**     | Funcionalidades dinâmicas.|
+| **JavaScript**     | Funcionalidades dinâmicas.
 | **Figma**          | Criação de wireframes e protótipos de design.                   |
-| **Canva**          | Design gráfico para criação de logotipos e materiais visuais.   |
 
 ## 🎨 Design
 
-O layout do portfólio foi pensado para ser limpo e minimalista, utilizando uma paleta de cores suave e tipografias legíveis. A paleta de cores é composta por tons de preto com transparência, branco e um toque de tonalidade verde. Essa combinação cria um visual elegante e moderno, com um contraste sutil que destaca os elementos importantes sem sobrecarregar o visual.
+O layout do portfólio foi pensado para ser limpo e minimalista, utilizando uma paleta de cores suave e tipografias legíveis. A paleta de cores é composta por tons de preto com transparência, branco e um toque de tonalidade verde, Criando um visual elegante e moderno, com um contraste sutil que destaca os elementos importantes sem sobrecarregar o visual.
 
 ---
 ## 🔗 Acesse o Projeto
