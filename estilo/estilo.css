@@ -162,13 +162,13 @@ nav a:hover {
 
 section {
     z-index: 2;
+    margin-top: 40px;
 }
 
 h1 {
     font-family: "Bodoni Moda SC", serif;
     font-size: 30px;
-    margin-top: 40px;
-    padding: 22px;
+    padding: 20px;
     text-shadow: 2px 2px 5px rgb(0, 0, 5);
     transition-duration: 0.5s;
 }
