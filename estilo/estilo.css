@@ -73,7 +73,23 @@ nav a:hover {
     text-shadow: 2px 2px 5px rgb(0, 0, 5);
     width: 100%;
 }
-
+#contItem > span{
+    display: none;
+    position: absolute;
+    /*top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    white-space: nowrap;
+    margin-top: 5px;
+    font-size: 12px;*/
+}
+.item:hover span {
+    display: block;
+}
 #capa {
     position: absolute;
     top: 0;
