@@ -46,6 +46,10 @@ a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.596);
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+
 }
 
 nav a:hover {
@@ -59,14 +63,15 @@ nav a:hover {
 .menu {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    margin: 10px;
 }
 
 .item {
+    display: flex;
+    flex-grow: 1;
     font-family: "Playfair", serif;
     list-style-type: none;
     text-shadow: 2px 2px 5px rgb(0, 0, 5);
-    margin: 20px 0;
     width: 100%;
 }
 
