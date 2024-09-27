@@ -39,6 +39,7 @@ Informações para entrar em contato, incluindo links para minhas redes sociais 
 | **CSS3**           | Estilos visuais, com foco em design responsivo e animações.     |
 | **JavaScript**     | Funcionalidades dinâmicas.
 | **Figma**          | Criação de wireframes e protótipos de design.                   |
+| **ScrollReveal**   | Transições.                   |
 
 ## 🎨 Design
 
