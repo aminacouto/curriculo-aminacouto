@@ -11,10 +11,10 @@ Criar uma aplicação online para mostrar minhas habilidades, formação, projet
 ### 1. Sobre Mim
 Uma breve apresentação da minha trajetória acadêmica e profissional, destacando minha transição da área de Gastronomia para Tecnologia e minha dedicação em Análise e Desenvolvimento de Sistemas.
 
-### 1. Principais Tecnologias
+### 2. Principais Tecnologias
 Exibição das principais tecnologias e ferramentas que utilizo na criação de projetos.
 
-### 2. Meu Portfólio
+### 3. Meu Portfólio
 Link para acessar meu portfólio pessoal para visualisar meus principais projetos e descrições detalhadas sobre o que foi desenvolvido.
 
 ### 4. Contato
